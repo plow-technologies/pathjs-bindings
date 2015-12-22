@@ -75,6 +75,7 @@ library
                       , valentine
                       , servant
                       , ghcjs-servant-client
+                      , containers
   
   -- Directories containing source files.
   hs-source-dirs:      src
@@ -103,3 +104,4 @@ executable pathjs-standalone
                       , valentine
                       , servant
                       , ghcjs-servant-client
+                      , containers
