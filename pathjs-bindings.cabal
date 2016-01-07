@@ -66,12 +66,10 @@ library
                       , ghcjs-ffiqq
                       , ghcjs-base
                       , ghcjs-vdom
-                      , vdom-adapter
                       , live-vdom
                       , text
                       , stm
                       , stm-notify
-                      , vdom-adapter
                       , valentine
                       , servant
                       , ghcjs-servant-client
@@ -94,12 +92,10 @@ executable pathjs-standalone
                       , ghcjs-ffiqq
                       , ghcjs-base
                       , ghcjs-vdom
-                      , vdom-adapter
                       , live-vdom
                       , text
                       , stm
                       , stm-notify
-                      , vdom-adapter
                       , pathjs-bindings
                       , valentine
                       , servant
