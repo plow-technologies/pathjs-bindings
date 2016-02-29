@@ -62,17 +62,17 @@ library
   
   -- Other library packages from which modules are imported.
   build-depends:        base >=4.8 && <4.9
-                      , ghcjs-vdom
-                      , ghcjs-ffiqq
+                      --, ghcjs-vdom
+                      --, ghcjs-ffiqq
                       , ghcjs-base
-                      , ghcjs-vdom
-                      , live-vdom
+                      --, ghcjs-vdom
+                      --, live-vdom
                       , text
-                      , stm
-                      , stm-notify
-                      , valentine
-                      , servant
-                      , ghcjs-servant-client
+                      --, stm
+                      --, stm-notify
+                      --, valentine
+                      --, servant
+                      --, ghcjs-servant-client
                       , containers
   
   -- Directories containing source files.
@@ -88,16 +88,15 @@ executable pathjs-standalone
   GHC-Options:          -Wall
   Main-is:              Main.hs
   Build-Depends:        base >= 4 && < 5
-                      , ghcjs-vdom
-                      , ghcjs-ffiqq
+                      --, ghcjs-vdom
+                      --, ghcjs-ffiqq
                       , ghcjs-base
-                      , ghcjs-vdom
-                      , live-vdom
+                      --, live-vdom
                       , text
-                      , stm
-                      , stm-notify
+                      --, stm
+                      --, stm-notify
                       , pathjs-bindings
-                      , valentine
-                      , servant
-                      , ghcjs-servant-client
+                      --, valentine
+                      --, servant
+                      --, ghcjs-servant-client
                       , containers
